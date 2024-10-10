@@ -1,1 +1,1 @@
-https://BIThovenKostyukevich.github.io/KOALICIJA/Koalicija/kaolicija.html
+https://BIThovenKostyukevich.github.io/KOALICIJA/Koalicija/koalicija.html

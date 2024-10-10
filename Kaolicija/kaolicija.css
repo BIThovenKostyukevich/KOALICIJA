@@ -208,11 +208,11 @@ body {
 
 
 .about-item img {
-    width: 40%;
+    width: 95%;
     height: 95%;
-    object-fit: cover; 
-    filter: brightness(50%); 
-    transition: filter 0.3s ease; 
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
     border-radius: 5px;
     position: relative;
     top: 2.5%;
@@ -235,14 +235,15 @@ body {
 }
 .about-text {
     padding: 10px;
-    background-color: transparent;
+    background-color: #ffffff;
     position: absolute;
-    right: 2.5%;
-    bottom: 2.5%;
-    width: 52.5%;
-    height: 95%;
+    right: 1.5%;
+    bottom: 1.5%;
+    width: auto;
+    height: auto;
     display: flow-root;
     align-content: end;
+    border-radius: 3px;
 }
 .about-item {
     position: relative;

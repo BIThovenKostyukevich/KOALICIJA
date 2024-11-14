@@ -149,4 +149,5 @@ body.no-scroll {
     height: auto;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }

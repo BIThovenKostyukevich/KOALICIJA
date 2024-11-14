@@ -1,30 +1,29 @@
-// Обработчик клика по дропдауну
+
 document.querySelectorAll('.dropdown-only').forEach(button => {
     button.addEventListener('click', function (event) {
-        event.stopPropagation();  // Останавливаем событие, чтобы избежать его распространения
+        event.stopPropagation();  
 
         const isActive = this.classList.contains('active'); 
 
-        closeAllDropdowns();  // Закрываем все дропдауны, чтобы предотвратить открытие нескольких
-
+        closeAllDropdowns();  
         if (!isActive) {
-            this.classList.add('active');  // Открываем текущий дропдаун
+            this.classList.add('active');  
         }
     });
 });
 
-// Закрытие всех дропдаунов
+
 function closeAllDropdowns() {
     document.querySelectorAll('.dropdown-only').forEach(button => {
-        button.classList.remove('active');  // Убираем активный класс с каждого дропдауна
+        button.classList.remove('active'); 
     });
 }
 
-// Закрытие дропдаунов при клике вне их области
+
 document.addEventListener('click', function(event) {
-    // Проверяем, что клик не был сделан по кнопке бургер-меню или по дропдауну
+    
     if (!event.target.closest('.dropdown-only') && !event.target.closest('.burger-btn')) {
-        closeAllDropdowns();  // Закрываем все дропдауны, если клик был вне их области
+        closeAllDropdowns();  
     }
 });
 
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.addEventListener('click', () => {
         burger.classList.toggle('active');
         burgerMenuContent.classList.toggle('active');
-        document.body.classList.toggle('no-scroll'); // Блокируем/разблокируем прокрутку
+        document.body.classList.toggle('no-scroll'); 
     });
 
     dropdowns.forEach(dropdown => {

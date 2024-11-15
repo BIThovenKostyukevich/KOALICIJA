@@ -14,6 +14,10 @@
     z-index: 11;
     position: relative;
     transition: transform 0.3s ease;
+    z-index: 11;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .burger-icon .line {
@@ -26,7 +30,7 @@
 
 /* Анимация на активное состояние */
 .burger-menu.active .burger-icon .line1 {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(9px, 9px);
 }
 
 .burger-menu.active .burger-icon .line2 {
@@ -34,7 +38,7 @@
 }
 
 .burger-menu.active .burger-icon .line3 {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(9px, -9px);
 }
 
 .burger-menu-content {
@@ -49,15 +53,17 @@
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 0.4s ease, transform 0.4s ease;
-    z-index: 1000;
+    z-index: 10;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .burger-menu.active .burger-menu-content {
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
+    align-items: center;
+    padding: 50px 0px 0px 0px;
 }
 
 .burger-menu-content a {
@@ -143,8 +149,8 @@ body.no-scroll {
 }
 
 .burger-menu-content {
-    align-items: flex-start; 
-    justify-content: flex-start; 
+    align-items: center;
+    justify-content: flex-start;
 }    
 
 .dropdown-arrow.active + .sub-dropdown-menu {

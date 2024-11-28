@@ -1,0 +1,156 @@
+.section-supportUs {
+    background-color: #F8F9FA;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 100px 62px 100px 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.section-supportUs-donation {
+    background-color: #F8F9FA;
+    width: fit-content;
+    height: auto;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-supportUs-donationItem {
+    width: fit-content;
+    height: fit-content;
+    padding: 32px;
+    gap: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease, transform 0.3s ease, height 0.5s ease;
+}
+.suppots-name{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 12px 10px 12px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #F8F9FA;
+    font-size: 16px;
+    line-height: 15.31px;
+    color: #1D1D22;
+    font-weight: 600;
+}
+.suppots-cost-descr {
+    width: fit-content;
+    height: fit-content;
+    gap: 24px;
+    display: grid;
+}
+.soppots-cost {
+    width: fit-content;
+    height: fit-content;
+    gap: 4px;
+    display: flex;
+    align-items: baseline;
+}
+.supports-description {
+    width: fit-content;
+    height: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1D1D22;
+}
+.supports-button {
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: 1px solid #11000099;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.supports-button.active {
+    background-color: #f0f0f0; 
+    border-color: #333; 
+    color: #333; 
+}
+.news-button.active {
+    background-color: #f0f0f0; 
+    border-color: #333; 
+    color: #333; 
+}
+.section-supportUs-donationItem:hover {
+    background-color: #1D1D22; 
+    color: #FFFFFF;
+    height: 304px; 
+
+}
+
+.section-supportUs-donationItem:hover .suppots-name,
+.section-supportUs-donationItem:hover .supports-button,
+.section-supportUs-donationItem:hover .supports-description {
+    color: #ffffff;
+}
+.section-supportUs-donationItem:hover .suppots-name {
+    background-color: #303035;
+    border: 1px solid #303035;
+}
+
+.section-supportUs-donationItem:hover .soppots-cost .section-future-title,
+.section-supportUs-donationItem:hover .soppots-cost .achievements-title {
+    color: #FFFFFF; 
+}
+
+.section-supportUs-donationItem:hover .supports-button {
+    background-color: #1D1D22;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.section-supportUs-donationItem:hover .supports-button:hover {
+    background-color: #FFFFFF;
+    color: #1D1D22;
+
+}
+
+@media (max-width: 1024px) {
+    .section-supportUs-donation {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .section-contacts-blockitem,
+    .section-supportUs-donation {
+        gap: 12px;
+    }
+
+    .section-contacts-blockitem-1,
+    .section-contacts-blockitem-2,
+    .section-contacts-blockitem-3,
+    .section-supportUs-donationItem {
+        padding: 20px;
+    }
+
+    .section-contacts-rights-text {
+        font-size: 10px;
+    }
+
+    .contacts-main-item, .contacts-item, .contacts-item-1, .supports-button {
+        font-size: 12px;
+    }
+}

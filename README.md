@@ -1,4 +1,4 @@
-https://BIThovenKostyukevich.github.io/KOALICIJA/coalition-clone/src/coalition-2.html
+https://BIThovenKostyukevich.github.io/KOALICIJA/src-Rebels/index.html
 
 
 

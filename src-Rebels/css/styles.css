@@ -12,6 +12,7 @@
 }
 
 body {
+    font-family: 'Gilroy', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,7 +669,7 @@ body {
     position: relative;
     width: 90%;
     height: 710px;
-    top: 29px;
+    top: 180px;
     /* background-color: rgb(108, 100, 100); */
     display: flex;
     flex-direction: column;
@@ -730,7 +731,7 @@ body {
         width: 90%;
         height: auto;
         /* background-color: aqua; */
-        top: 80px;
+        top: 210px;
         left: 0%;
         display: flex;
         flex-direction: column;

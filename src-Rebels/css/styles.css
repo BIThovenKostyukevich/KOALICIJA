@@ -728,7 +728,7 @@ body {
 }
     .rebelsContentBlock {
         position: relative;
-        width: 90%;
+        width: 92%;
         height: auto;
         /* background-color: aqua; */
         top: 210px;
@@ -852,6 +852,38 @@ body {
     justify-content: center;
     align-items: center;
     }
+
+    @media (max-width: 510.5px) {
+        .yearRebels {
+    height: 40px;
+    width: fit-content;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 37.95px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.promotionsByMonth {
+    height: 37px;
+    width: 152px;
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-left: 14px;
+}
+    }
+
+
+
+    
     @media (max-width: 450.5px) {
         .dataRebels {
             position: relative;

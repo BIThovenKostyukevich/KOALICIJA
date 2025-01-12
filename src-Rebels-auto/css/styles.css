@@ -121,7 +121,7 @@ body {
     height: auto;
     display: flex;
     align-items: center;
-    margin-left: 1.5vw;
+    margin-left: 3.5vw;
 }
 .SVGRebels {
     height: 4.7vw;
@@ -296,7 +296,10 @@ body {
     text-decoration-skip-ink: none;
     color: #FFFFFF;
 }
-
+.links { 
+    color: #FFFFFF;
+    text-decoration: none;
+}
    @media (max-width: 980px) {
     .MainContentRebels {
         height: 247.53vw;

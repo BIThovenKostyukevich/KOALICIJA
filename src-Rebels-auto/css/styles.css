@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/font/Gilroy-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('/font/Gilroy-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.rebels-screen-wrapper {
+    position: relative;
+    width: 100%;
+    /* max-width: 1500px; */
+    height: 100%;
+    background-image: url('../img/im_2be0d8a6855e1497c88c680114ccc818.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 13.33vw;
+}
+.MainContentRebels {
+    width: 100%;
+    height: 69.53vw;
+    position: relative;
+    /* top: 30.53vw; */
+}
+.RebelsAchievements {
+    position: absolute;
+    width: 50%;
+    height: -webkit-fill-available;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 23%, #000000 100%);
+}
+.logoRebels {
+    position: relative;
+    top: 5.27vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 23.133vw;
+    width: 100%;
+}
+.logoImg {
+    width: 23.133vw;
+    height: 23.133vw;
+    left: 4.67vw;
+    position: relative;
+}
+.titleSubtitle {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: 31.80vw;
+    /* background-color: rgb(252, 134, 134); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.667vw;
+}
+.rebelsTitle {
+    width: min-content;
+    height: min-content;
+    /* top: 119px; */
+    /* left: 477px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 7.27vw;
+    font-weight: 800;
+    line-height: 7.13vw;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    position: relative;
+}
+.rebelsSubTitle {
+    width: 70%;
+    height: min-content;
+    top: 1px;
+    /* left: 477px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy-Regular;
+    font-size: 1.60vw;
+    font-weight: 400;
+    line-height: 1.93vw;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    position: relative;
+}
+.a {
+    color: #FFFFFF; /* Белый цвет текста */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-weight: 600;
+}
+.RebelsAchievementsItem {
+    /* background-color: aquamarine; */
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5vw;
+}
+.SVGRebels {
+    height: 4.7vw;
+    width: 5vw;
+}
+.TxtRebelsAch {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.RebelsAchievementsNumbers {
+    height: auto;
+    font-family: Gilroy;
+    font-size: 5.47vw;
+    font-weight: 800;
+    line-height: 5.27vw;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 1vw;
+    color: white;
+}
+.RebelsAchievementsName {
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 1.33vw;
+    font-weight: 400;
+    line-height: 1.60vw;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 1vw;
+    color: white;
+}
+.RebelsAchievementsLayout {
+    width: -webkit-fill-available;
+    height: 58.07vw;
+    /* bottom: 7.13vw; */
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.53vw 0;
+    align-items: start;
+    /* top: 3vw; */
+    justify-items: start;
+}
+.rebelsContentBlock {
+    position: absolute;
+    width: 36.67vw; /* 550px / 1500px * 100 */
+    height: auto; /* 1042px / 1500px * 100 */
+    left: 57.4vw; /* 861px / 1500px * 100 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+   
+   .RebelsCalendar {
+       position: relative;
+       width: 36.67vw; /* 550px / 1500px * 100 */
+       height: 55.87vw; /* 838px / 1500px * 100 */
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-content: space-between;
+   }
+   
+   .dataRebels {
+       position: relative;
+       width: max-content;
+       height: 4.27vw; /* 64px / 1500px * 100 */
+       left: 0;
+       display: flex;
+       align-items: flex-start;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+   
+   .yearRebels {
+       height: 2.67vw; /* 40px / 1500px * 100 */
+       width: fit-content;
+       font-family: Gilroy;
+       font-size: 3.8vw; /* 57px / 1500px * 100 */
+       font-weight: 800;
+       line-height: 2.997vw; /* 44.95px / 1500px * 100 */
+       text-align: left;
+       text-underline-position: from-font;
+       text-decoration-skip-ink: none;
+       color: white;
+   }
+   
+   .promotionsByMonth {
+       height: 2.47vw; /* 37px / 1500px * 100 */
+       width: 10.67vw; /* 160px / 1500px * 100 */
+       font-family: Gilroy-Regular;
+       font-size: 1.47vw; /* 22px / 1500px * 100 */
+       font-weight: 400;
+       line-height: 1.267vw; /* 19px / 1500px * 100 */
+       text-align: left;
+       text-underline-position: from-font;
+       text-decoration-skip-ink: none;
+       color: white;
+       margin-left: 0.93vw; /* 14px / 1500px * 100 */
+   }
+   
+   .CalendarItem {
+       width: 8.07vw; /* 121px / 1500px * 100 */
+       height: 5.07vw; /* 76px / 1500px * 100 */
+       border-radius: 0.67vw; /* 10px / 1500px * 100 */
+       background-color: rgba(255, 255, 255, 0.5);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .CalendarItemYearAndMonth {
+       font-size: 1vw; 
+       font-family: 'Gilroy-Regular';
+       text-align: center;
+       line-height: 0.98vw; 
+       color: #000;
+       width: min-content;
+       display: flex;
+   }
+   
+   .CalendarItemCount {
+       font-size: 2.4vw; 
+       font-family: 'Gilroy';
+       line-height: 2.36vw; 
+       text-align: center;
+       color: #000;
+   }
+   .RebelsContacts {
+    width: 31.53vw; /* 473px / 1500px * 100 */
+    height: 1.67vw; /* 40px / 1500px * 100 */
+    top: 3.6vw; /* 54px / 1500px * 100 */
+    position: relative;
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 2.4vw; /* 36px / 1500px * 100 */
+}
+.InstRebels {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2vw; /* 18px / 1500px * 100 */
+}
+.TelegrRebels {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw; /* 18px / 1500px * 100 */
+}
+.InstRebelsIcn {
+    width: 2.67vw; /* 40px / 1500px * 100 */
+    height: 2.67vw; /* 40px / 1500px * 100 */
+}
+.RebelsContactsTxt {
+    font-family: 'Gilroy-Regular';
+    font-size: 1.13vw; /* 17px / 1500px * 100 */
+    font-weight: 400;
+    line-height: 1.32vw; /* 19.76px / 1500px * 100 */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+   @media (max-width: 980px) {
+    .MainContentRebels {
+        height: 247.53vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+       .RebelsAchievements {
+    width: 100%;
+    height: auto;
+    bottom: 0vw;
+}
+       .RebelsAchievementsLayout {
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 0 0 5.68vw 0;
+}
+       .rebelsContentBlock {
+     left: auto;
+     width: 100%;
+   }
+          .RebelsCalendar {
+       position: relative;
+       height: 115vw;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-content: space-between;
+       width: 75%;
+       left: 12.5%;
+   }
+       .logoRebels {
+    position: relative;
+    top: 5.27vw;
+    flex-direction: column;
+    height: 96.133vw;
+    width: 100%;
+}
+       .logoImg {
+    width: 45.133vw;
+    height: 45.133vw;
+    left: 0vw;
+    position: relative;
+}
+       .rebels-screen-wrapper {
+    gap: 0.33vw;
+}
+       .rebelsTitle {text-align: center;width: 90%;left: 5%;font-size: 9vw;line-height: 8.5vw;}
+       .rebelsSubTitle {text-align: center;width: 90%;left: 5%;font-size: 2.5vw;line-height: 2.95vw;}
+   .titleSubtitle {
+    width: 70%;
+    left: 0%;
+    height: auto;
+    position: relative;
+    gap: 1vw;
+}
+       .SVGRebels {
+    height: 9.7vw;
+    width: 9vw;
+}
+       .RebelsAchievementsNumbers {
+    font-size: 8.47vw;
+    line-height: 8.27vw;
+}
+       .RebelsAchievementsName {
+    font-size: 3vw;
+    line-height: 3.6vw;
+}
+   .dataRebels {
+       height: 7.27vw; /* 64px / 1500px * 100 */
+       left: 17.5%;
+   }
+   .yearRebels {
+       height: 5.67vw; /* 40px / 1500px * 100 */
+       font-size: 6.8vw; /* 57px / 1500px * 100 */
+       line-height: 5.997vw; /* 44.95px / 1500px * 100 */
+   }
+   
+   .promotionsByMonth {
+       height: 5.47vw; /* 37px / 1500px * 100 */
+       width: 17.67vw; /* 160px / 1500px * 100 */
+       font-size: 2.75vw; /* 22px / 1500px * 100 */
+       line-height: 3.1vw; /* 19px / 1500px * 100 */
+       margin-left: 0.93vw; /* 14px / 1500px * 100 */
+   }
+   .CalendarItem {
+       width: 17.57vw; /* 121px / 1500px * 100 */
+       height: 11.57vw; /* 76px / 1500px * 100 */
+       border-radius: 1.67vw; /* 10px / 1500px * 100 */
+       align-items: center;
+   }
+   
+   .CalendarItemYearAndMonth {
+       font-size: 3vw;
+       line-height: 2.98vw;
+   }
+   
+   .CalendarItemCount {
+       font-size: 4.8vw;
+       line-height: 4.7vw;
+   }
+.RebelsAchievementsItem {
+    margin-left: 5.5vw;
+}
+.RebelsContacts {
+    width: 70%; /* 473px / 1500px * 100 */
+    height: 4.67vw; /* 40px / 1500px * 100 */
+    top: 3.6vw; /* 54px / 1500px * 100 */
+    position: relative;
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 2.4vw; /* 36px / 1500px * 100 */
+    left: 15%;
+}
+.InstRebels {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2vw; /* 18px / 1500px * 100 */
+}
+.TelegrRebels {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw; /* 18px / 1500px * 100 */
+}
+.InstRebelsIcn {
+    width: 5.67vw; /* 40px / 1500px * 100 */
+    height: 5.67vw; /* 40px / 1500px * 100 */
+}
+.RebelsContactsTxt {
+    font-family: 'Gilroy-Regular';
+    font-size: 3.13vw; /* 17px / 1500px * 100 */
+    font-weight: 400;
+    line-height: 3.32vw; /* 19.76px / 1500px * 100 */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+
+
+       
+   }   
